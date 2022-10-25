@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include realpayroll *.css
+recursive-include realpayroll *.csv
+recursive-include realpayroll *.html
+recursive-include realpayroll *.ico
+recursive-include realpayroll *.js
+recursive-include realpayroll *.json
+recursive-include realpayroll *.md
+recursive-include realpayroll *.png
+recursive-include realpayroll *.py
+recursive-include realpayroll *.svg
+recursive-include realpayroll *.txt
+recursive-exclude realpayroll *.pyc
