@@ -1,5 +1,5 @@
 from . import __version__ as app_version
-
+#import frappe
 app_name = "realpayroll"
 app_title = "Real Agro Pay Roll System"
 app_publisher = "Mohammad Darban Baran"
@@ -185,3 +185,18 @@ app_license = "MIT"
 # auth_hooks = [
 #	"realpayroll.auth.validate"
 # ]
+
+
+# create record in Employee Payroll Doctype for all the employees of a company after Company Payroll is created
+doc_events = {
+    "Company Payroll": {
+        "after_insert": "realpayroll.crud_events.after_insert_company_payroll"
+    },
+    "Employee Payroll": {
+        "before_save": "realpayroll.crud_events.before_save_employee_payroll"
+    }
+}
+# after app install hooks
+# after_install = "realpayroll.setup.after_install"
+# load custom doctypes
+# fixtures = [""]

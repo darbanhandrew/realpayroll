@@ -1,0 +1,28 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2022-10-31 19:47:38.535224",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Employee Payroll\"],[\"employee\",\"Employee Payroll\"],[\"total_tax\",\"Employee Payroll\"],[\"tax_on_salary\",\"Employee Payroll\"],[\"first_name\",\"Employee Payroll\"],[\"last_name\",\"Employee Payroll\"],[\"department\",\"Employee Payroll\"],[\"designation\",\"Employee Payroll\"],[\"period_date\",\"Employee Payroll\"],[\"day_1\",\"Employee Payroll\"],[\"day_3\",\"Employee Payroll\"],[\"day_2\",\"Employee Payroll\"],[\"day_4\",\"Employee Payroll\"],[\"day_5\",\"Employee Payroll\"],[\"day_7\",\"Employee Payroll\"],[\"day_6\",\"Employee Payroll\"],[\"day_8\",\"Employee Payroll\"],[\"basic_salary\",\"Employee Payroll\"],[\"day_9\",\"Employee Payroll\"],[\"day_10\",\"Employee Payroll\"],[\"day_13\",\"Employee Payroll\"],[\"day_11\",\"Employee Payroll\"],[\"day_14\",\"Employee Payroll\"],[\"day_12\",\"Employee Payroll\"],[\"day_15\",\"Employee Payroll\"],[\"day_17\",\"Employee Payroll\"],[\"day_16\",\"Employee Payroll\"],[\"day_18\",\"Employee Payroll\"],[\"day_19\",\"Employee Payroll\"],[\"day_21\",\"Employee Payroll\"],[\"day_20\",\"Employee Payroll\"],[\"day_22\",\"Employee Payroll\"],[\"day_23\",\"Employee Payroll\"],[\"day_25\",\"Employee Payroll\"],[\"day_24\",\"Employee Payroll\"],[\"day_26\",\"Employee Payroll\"],[\"day_27\",\"Employee Payroll\"],[\"day_28\",\"Employee Payroll\"],[\"day_30\",\"Employee Payroll\"],[\"day_29\",\"Employee Payroll\"],[\"day_31\",\"Employee Payroll\"],[\"total_days\",\"Employee Payroll\"],[\"total_salary\",\"Employee Payroll\"],[\"total_hours\",\"Employee Payroll\"],[\"total_overtime_amount\",\"Employee Payroll\"],[\"total_deductions\",\"Employee Payroll\"],[\"total_net_salary\",\"Employee Payroll\"],[\"total_bank\",\"Employee Payroll\"],[\"tax_on_salary_for_credit\",\"Employee Payroll\"],[\"total_overtime\",\"Employee Payroll\"],[\"total_cash\",\"Employee Payroll\"],[\"tax_on_workers\",\"Employee Payroll\"]],\"order_by\":\"`tabEmployee Payroll`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee\":120,\"total_tax\":120,\"tax_on_salary\":120,\"first_name\":120,\"last_name\":120,\"department\":120,\"designation\":120,\"period_date\":120,\"day_1\":120,\"day_3\":120,\"day_2\":120,\"day_4\":120,\"day_5\":120,\"day_7\":120,\"day_6\":120,\"day_8\":120,\"basic_salary\":120,\"day_9\":120,\"day_10\":120,\"day_13\":120,\"day_11\":120,\"day_14\":120,\"day_12\":120,\"day_15\":120,\"day_17\":120,\"day_16\":120,\"day_18\":120,\"day_19\":120,\"day_21\":120,\"day_20\":120,\"day_22\":120,\"day_23\":120,\"day_25\":120,\"day_24\":120,\"day_26\":120,\"day_27\":120,\"day_28\":120,\"day_30\":120,\"day_29\":120,\"day_31\":120,\"total_days\":120,\"total_salary\":120,\"total_hours\":120,\"total_overtime_amount\":120,\"total_deductions\":120,\"total_net_salary\":120,\"total_bank\":120,\"tax_on_salary_for_credit\":120,\"total_overtime\":120,\"total_cash\":120,\"tax_on_workers\":120},\"group_by\":null}",
+ "letter_head": "625000",
+ "modified": "2022-10-31 19:49:21.073585",
+ "modified_by": "Administrator",
+ "module": "Real Agro Pay Roll System",
+ "name": "Employee Attendance",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Employee Payroll",
+ "report_name": "Employee Attendance",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ]
+}

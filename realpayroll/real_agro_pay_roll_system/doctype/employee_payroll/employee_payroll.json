@@ -1,0 +1,361 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{employee}-{company}-{period_date}",
+ "creation": "2022-10-25 08:03:52.141283",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "basic_salary",
+  "first_name",
+  "last_name",
+  "department",
+  "designation",
+  "period_date",
+  "day_1",
+  "day_2",
+  "day_3",
+  "day_4",
+  "day_5",
+  "day_6",
+  "day_7",
+  "day_8",
+  "day_9",
+  "day_10",
+  "day_11",
+  "day_12",
+  "day_13",
+  "day_14",
+  "day_15",
+  "day_16",
+  "day_17",
+  "day_18",
+  "day_19",
+  "day_20",
+  "day_21",
+  "day_22",
+  "day_23",
+  "day_24",
+  "day_25",
+  "day_26",
+  "day_27",
+  "day_28",
+  "day_29",
+  "day_30",
+  "day_31",
+  "total_days",
+  "total_salary",
+  "total_hours",
+  "total_overtime",
+  "tax_on_salary",
+  "total_overtime_amount",
+  "total_deductions",
+  "total_tax",
+  "total_net_salary",
+  "total_bank",
+  "total_cash",
+  "tax_on_salary_for_credit",
+  "tax_on_workers"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "basic_salary",
+   "fieldtype": "Currency",
+   "label": "Basic Salary"
+  },
+  {
+   "fieldname": "day_1",
+   "fieldtype": "Int",
+   "label": "Day 1"
+  },
+  {
+   "fieldname": "day_2",
+   "fieldtype": "Int",
+   "label": "Day 2"
+  },
+  {
+   "fieldname": "day_3",
+   "fieldtype": "Int",
+   "label": "Day 3"
+  },
+  {
+   "fieldname": "day_4",
+   "fieldtype": "Int",
+   "label": "Day 4"
+  },
+  {
+   "fieldname": "day_5",
+   "fieldtype": "Int",
+   "label": "Day 5"
+  },
+  {
+   "fieldname": "day_6",
+   "fieldtype": "Int",
+   "label": "Day 6"
+  },
+  {
+   "fieldname": "day_7",
+   "fieldtype": "Int",
+   "label": "Day 7"
+  },
+  {
+   "fieldname": "day_8",
+   "fieldtype": "Int",
+   "label": "Day 8"
+  },
+  {
+   "fieldname": "day_9",
+   "fieldtype": "Int",
+   "label": "Day 9"
+  },
+  {
+   "fieldname": "day_10",
+   "fieldtype": "Int",
+   "label": "Day 10"
+  },
+  {
+   "fieldname": "day_11",
+   "fieldtype": "Int",
+   "label": "Day 11"
+  },
+  {
+   "fieldname": "day_12",
+   "fieldtype": "Int",
+   "label": "Day 12"
+  },
+  {
+   "fieldname": "day_13",
+   "fieldtype": "Int",
+   "label": "Day 13"
+  },
+  {
+   "fieldname": "day_14",
+   "fieldtype": "Int",
+   "label": "Day 14"
+  },
+  {
+   "fieldname": "day_15",
+   "fieldtype": "Int",
+   "label": "Day 15"
+  },
+  {
+   "fieldname": "day_16",
+   "fieldtype": "Int",
+   "label": "Day 16"
+  },
+  {
+   "fieldname": "day_17",
+   "fieldtype": "Int",
+   "label": "Day 17"
+  },
+  {
+   "fieldname": "day_18",
+   "fieldtype": "Int",
+   "label": "Day 18"
+  },
+  {
+   "fieldname": "day_19",
+   "fieldtype": "Int",
+   "label": "Day 19"
+  },
+  {
+   "fieldname": "day_20",
+   "fieldtype": "Int",
+   "label": "Day 20"
+  },
+  {
+   "fieldname": "day_21",
+   "fieldtype": "Int",
+   "label": "Day 21"
+  },
+  {
+   "fieldname": "day_22",
+   "fieldtype": "Int",
+   "label": "Day 22"
+  },
+  {
+   "fieldname": "day_23",
+   "fieldtype": "Int",
+   "label": "Day 23"
+  },
+  {
+   "fieldname": "day_24",
+   "fieldtype": "Int",
+   "label": "Day 24"
+  },
+  {
+   "fieldname": "day_25",
+   "fieldtype": "Int",
+   "label": "Day 25"
+  },
+  {
+   "fieldname": "day_26",
+   "fieldtype": "Int",
+   "label": "Day 26"
+  },
+  {
+   "fieldname": "day_27",
+   "fieldtype": "Int",
+   "label": "Day 27"
+  },
+  {
+   "fieldname": "day_28",
+   "fieldtype": "Int",
+   "label": "Day 28"
+  },
+  {
+   "fieldname": "day_29",
+   "fieldtype": "Int",
+   "label": "Day 29"
+  },
+  {
+   "fieldname": "day_30",
+   "fieldtype": "Int",
+   "label": "Day 30"
+  },
+  {
+   "fieldname": "day_31",
+   "fieldtype": "Int",
+   "label": "Day 31"
+  },
+  {
+   "fieldname": "total_days",
+   "fieldtype": "Int",
+   "label": "Total Days"
+  },
+  {
+   "fieldname": "total_salary",
+   "fieldtype": "Currency",
+   "label": "Total Salary"
+  },
+  {
+   "fieldname": "total_hours",
+   "fieldtype": "Int",
+   "label": "Total Hours"
+  },
+  {
+   "fieldname": "total_overtime",
+   "fieldtype": "Int",
+   "label": "Total Overtime"
+  },
+  {
+   "fieldname": "total_overtime_amount",
+   "fieldtype": "Currency",
+   "label": "Total Overtime Amount"
+  },
+  {
+   "fieldname": "total_deductions",
+   "fieldtype": "Currency",
+   "label": "\u0414\u0435\u043d\u0435\u0436\u043d\u044b\u0435 \u0432\u0437\u044b\u0441\u043a\u0430\u043d\u0438\u044f"
+  },
+  {
+   "fieldname": "total_tax",
+   "fieldtype": "Currency",
+   "label": "Total Tax"
+  },
+  {
+   "fieldname": "total_net_salary",
+   "fieldtype": "Currency",
+   "label": "Total Net Salary"
+  },
+  {
+   "fieldname": "total_cash",
+   "fieldtype": "Currency",
+   "label": "Total Cash"
+  },
+  {
+   "fieldname": "total_bank",
+   "fieldtype": "Currency",
+   "label": "Total Bank"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "fieldname": "period_date",
+   "fieldtype": "Date",
+   "label": "Period Date"
+  },
+  {
+   "fieldname": "tax_on_salary",
+   "fieldtype": "Currency",
+   "label": "\u041f\u043e\u0434\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u043d\u0430\u043b\u043e\u0433"
+  },
+  {
+   "fieldname": "tax_on_salary_for_credit",
+   "fieldtype": "Currency",
+   "label": "\u0418\u041d\u041f\u0421"
+  },
+  {
+   "fieldname": "tax_on_workers",
+   "fieldtype": "Currency",
+   "label": "\u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0418\u043c\u044f"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0444\u0430\u043c\u0438\u043b\u0438\u044f"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "custom": 1,
+   "link_doctype": "Employee",
+   "link_fieldname": "employee"
+  }
+ ],
+ "modified": "2022-10-31 19:45:54.888537",
+ "modified_by": "Administrator",
+ "module": "Real Agro Pay Roll System",
+ "name": "Employee Payroll",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
